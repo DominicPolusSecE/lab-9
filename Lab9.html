@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Photo Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Photo Gallery</h1>
+    <p>Filter by category: Nature, Architecture, People, Anime</p>
+  </header>
+
+  <section id="filters">
+    <button data-category="all" class="active">All</button>
+    <button data-category="nature">Nature</button>
+    <button data-category="architecture">Architecture</button>
+    <button data-category="people">People</button>
+    <button data-category="anime">Anime</button>
+  </section>
+
+  <section id="gallery">
+    <img src="https://images.unsplash.com/photo-1685248307090-7398826be120?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG5hdHVyZSUyMGFlc3RoZXRpY3xlbnwwfHwwfHx8MA%3D%3D" alt="Nature 1" data-category="nature">
+    <img src="https://images.unsplash.com/photo-1695987687298-ad51425a21f8?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGFyayUyMG5hdHVyZSUyMGFlc3RoZXRpY3xlbnwwfHwwfHx8MA%3D%3D" alt="Nature 2" data-category="nature">
+    <img src="https://images4.alphacoders.com/135/1351253.png" alt="Nature 3" data-category="nature">
+    <img src="https://64.media.tumblr.com/56a8770956085697146f6db264551254/09b15b64c66f68f5-22/s2048x3072/c5565bfb054f1b8eee2ded7cc7f55e0da5a84407.jpg" alt="Nature 4" data-category="nature">
+    <img src="https://images.unsplash.com/photo-1693050013627-5e226ce3f370?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlJTIwYWVzdGhldGljfGVufDB8fDB8fHww" alt="Nature 5" data-category="nature">
+    
+    <img src="https://media.bluentcad.com/images/style-architecture.webp" alt="Architecture 1" data-category="architecture">
+    <img src="https://static.wixstatic.com/media/623888_ccbf189032f34f15a9071a78c503538f~mv2.jpg/v1/fill/w_1000,h_570,al_c,q_85,usm_0.66_1.00_0.01/623888_ccbf189032f34f15a9071a78c503538f~mv2.jpg" alt="Architecture 2" data-category="architecture">
+    <img src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YXJjaGl0ZWN0dXJlfGVufDB8fDB8fHww" alt="Architecture 3" data-category="architecture">
+    <img src="https://cloudlearn.co.uk/pix/uploaded/news/301980_20d30d.jpg" alt="Architecture 4" data-category="architecture">
+    <img src="https://parametric-architecture.com/wp-content/uploads/2023/05/Tim-Fu-4.jpg" alt="Architecture 5" data-category="architecture">
+
+    <img src="https://images.squarespace-cdn.com/content/v1/656f4e4dababbd7c042c4946/82bec838-05c8-4d68-b173-2284a6ad4e52/how-to-stop-being-a-people-pleaser" alt="People 1" data-category="people">
+    <img src="https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8OHx8fGVufDB8fHx8fA%3D%3D" alt="People 2" data-category="people">
+    <img src="https://t4.ftcdn.net/jpg/03/40/50/83/360_F_340508342_kE3raIEbox5QRKxsbV4wzC4aQpl5pm0P.jpg" alt="People 3" data-category="people">
+    <img src="https://images.unsplash.com/photo-1526927071144-dbe4c41835e4?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8fHw%3D" alt="People 4" data-category="people">
+    <img src="https://cdn.stocksnap.io/img-thumbs/280h/people-man_1EELT1X3EP.jpg" alt="People 5" data-category="people">
+
+    <img src="https://t3.ftcdn.net/jpg/04/49/19/08/360_F_449190831_i2whvIQdDIGtuIVWT6QfenWwmRApVJ5l.jpg" alt="Anime 1" data-category="anime">
+    <img src="https://hips.hearstapps.com/hmg-prod/images/index-anime-1674137684.jpg" alt="Anime 2" data-category="anime">
+    <img src="https://variety.com/wp-content/uploads/2023/08/Baki-Hanma-PV1_01-res.jpg?w=1000&h=563&crop=1" alt="Anime 3" data-category="anime">
+    <img src="https://occ-0-8407-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABYZz9cHoPyxUzXWUq-Yonr9bq3HFPN8nVwj155l18G8FcYUEGF_sZKR2WIY-IVjJqeMMwn0EePIm7VIfusid3mMPuMgs57vnLbRF.jpg?r=43c" alt="Anime 4" data-category="anime">
+    <img src="https://www.hindustantimes.com/ht-img/img/2023/02/14/1600x900/A_beginners_guide_to_watching_anime_1676364465623_1676364465839_1676364465839.jpeg" alt="Anime 5" data-category="anime">
+  </section>
+
+  <div id="lightbox" class="hidden">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" alt="Expanded view">
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
